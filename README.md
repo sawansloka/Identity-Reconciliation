@@ -9,12 +9,19 @@ Method: GET
 
 The curl command to interact with the endpoint is:
 
+```bash
 curl --location 'https://identity-reconciliation-qse8.onrender.com/order/contact/identify' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "email": "lorraine@hillvalley.edu",
     "phoneNumber": "123456"
 }'
+```
+
+# Problem Solving Development in Real Life
+ - Challenge: Linking different orders made with different contact information to the same person.
+ - Solution Requirement: Develop a system that can intelligently identify and link orders to the same customer, even if they use different contact information for each purchase.
+ - Objective: Streamline customer identity reconciliation across multiple purchases to provide a cohesive experience and facilitate better customer relationship management.
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
