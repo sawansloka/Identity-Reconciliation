@@ -2,6 +2,10 @@
 
 ## Endpoint
 The application is hosted on Render.com. You can access the endpoint at [https://identity-reconciliation-qse8.onrender.com/order/contact/identify](https://identity-reconciliation-qse8.onrender.com/order/contact/identify).
+Method: POST
+
+The application is hosted on Render.com. You can check the server at [https://identity-reconciliation-qse8.onrender.com/healthcheck](https://identity-reconciliation-qse8.onrender.com/healthcheck).
+Method: GET
 
 The curl command to interact with the endpoint is:
 
