@@ -1,5 +1,17 @@
 # Identity-Reconciliation
 
+## Endpoint
+The application is hosted on Render.com. You can access the endpoint at [https://identity-reconciliation-qse8.onrender.com/order/contact/identify](https://identity-reconciliation-qse8.onrender.com/order/contact/identify).
+
+The curl command to interact with the endpoint is:
+
+curl --location 'https://identity-reconciliation-qse8.onrender.com/order/contact/identify' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email": "lorraine@hillvalley.edu",
+    "phoneNumber": "123456"
+}'
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
