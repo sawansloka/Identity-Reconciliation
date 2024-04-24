@@ -18,6 +18,8 @@ curl --location 'https://identity-reconciliation-qse8.onrender.com/order/contact
 }'
 ```
 
+## Note: Due to inactivity of URL for so long will cause delay of 50-60 seconds for the first time (Render free service issue)
+
 # Problem Solving Development in Real Life
  - Challenge: Linking different orders made with different contact information to the same person.
  - Solution Requirement: Develop a system that can intelligently identify and link orders to the same customer, even if they use different contact information for each purchase.
